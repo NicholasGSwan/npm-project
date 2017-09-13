@@ -1,8 +1,10 @@
 "use strict";
+const $ = require("jquery");
+
 const hello =()=> console.log("Hello World from webpack!");
 
-const array = [];
+hello();
 
-array.push(12);
+$("body").html("<h1>Hello from jQuery</h1>");
 
 
